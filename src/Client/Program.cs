@@ -23,7 +23,7 @@ namespace Client
             var tokenResponse = await client.RequestClientCredentialsTokenAsync(new ClientCredentialsTokenRequest
             {
                 Address = disco.TokenEndpoint,
-                ClientId = "client",
+                ClientId = "client.json",
                 ClientSecret = "secret",
 
                 Scope = "api1"
